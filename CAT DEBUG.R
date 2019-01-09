@@ -1,8 +1,10 @@
 library(readr)
 library(catR)
 
-ItemBank <- as.matrix(read_csv("./ItemBank.csv"))
-QuestionBank <- as.matrix(read_csv("./QuestionBank.csv"))
+ItemBank_Master <- as.matrix(read_csv("./ItemBank.csv"))
+ItemBank <- as.matrix(ItemBank_Master[,1:5])
+mode(ItemBank) <- "numeric"
+QuestionBank <- as.matrix(ItemBank_Master[,c(1,6:11)])
 questions_administered <- c()
 theta <- 0
 response_vector <- c()
