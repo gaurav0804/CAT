@@ -1,0 +1,58 @@
+Sl No,Question,A,B,C,D,Answer
+1,What is 2+2,4,5,6,8,A
+2,What is 7+9,12,13,15,16,D
+3,What is 9-9,1,2,0,-1,C
+4,How much is 5+5,10,12,9,0,A
+5,How much is 12-3,8,9,10,11,B
+6,How much is 17-21,-4,0,1,-1,A
+7,How much is 19+2,19,20,21,22,C
+8,How much is 14-11,1,2,3,4,C
+9,How much is 3+4,4,5,6,7,D
+10,How much is 7+8,14,15,16,17,B
+11,How much is 0+0,0,1,2,3,A
+12,How much is 123+0,121,122,123,124,C
+13,How much do you love this app,0,10,100,Infinite,D
+14,How much is 17+3,19,20,21,22,B
+15,How much is 18+18,33,35,36,39,C
+16,How much is 20+18,38,39,40,41,A
+17,How much is 20-18,38,30,2,22,C
+18,How much is 10-4,3,4,5,6,D
+19,How much is 7+10,17,18,19,20,A
+20,How much is 2/2,1,2,0,22,A
+21,How much is 7*9,16,61,62,63,D
+22,What is 9*9,18,1,81,0,C
+23,How much is 5+5,25,24,23,22,A
+24,How much is 12/3,3,4,5,6,B
+25,How much is 21/7,3,4,5,6,A
+26,How much is 19*2,19,20,38,39,C
+27,How much is 14/1,1,4,14,44,C
+28,How much is 3*4,10,3,4,12,D
+29,How much is 7*8,7,56,8,65,B
+30,How much is 0*0,0,1,2,3,A
+31,How much is 123*0,123,1,0,None of the above,C
+32,How much 27/4,8,3,1,Not an Integer,D
+33,How much is 17*3,173,51,17,3,B
+34,How much is 18/18,0,18,1,36,C
+35,How much is 20/2,10,9,8,7,A
+36,How much is 20*18,380,200,360,180,C
+37,How much is 10*4,10,20,30,40,D
+38,How much is 7*10,70,80,90,100,A
+39,What is 2^2,4,8,16,2,A
+40,What is remainder of 7/9,0,1,9,7,D
+41,What is 9/0,1,0,Undefined,Infinite,C
+42,How much is 55*5,275,0,1,2,A
+43,How much is 12^2,36,144,6,0,B
+44,HCF of 17 and 21 is,1,0,17,21,A
+45,LCM of 19 and 2 is,19,2,38,1,C
+46,What is quotient of 97/32,1,2,3,4,C
+47,How much is 3^4,3,9,27,81,D
+48,How much is 8+8/4,8,10,4,2,B
+49,How much is 11^0,1,0,11,None of the Above,A
+50,How much is 123+876,0,111,999,1999,C
+51,Name an App better than ChalkLit,XXX,YYY,ZZZ,None,D
+52,How much is cube of 3,3 Cubes,27,3,9,B
+53,How much is 81/9+9,0,1,18,5,C
+54,How much is log (1) to the base e,0,1,e,not defined,A
+55,How much is log 10 to the base 10,-1,0,1,10,C
+56,How much is 10^4,10,100,1000,10000,D
+57,How much is 7^3,343,7,49,21,A
