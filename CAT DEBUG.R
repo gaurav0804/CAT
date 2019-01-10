@@ -5,6 +5,13 @@ ItemBank_Master <- as.matrix(read_csv("./ItemBank.csv"))
 ItemBank <- as.matrix(ItemBank_Master[,1:5])
 mode(ItemBank) <- "numeric"
 QuestionBank <- as.matrix(ItemBank_Master[,c(1,6:11)])
+
+list_of_questions_with_responses <- list()
+for (i in (1:length(ItemBank[,1]))){
+  name <- paste("question no:",i,sep=" ")
+  tmp <- as.list(ItemBank[i,2:5])
+  list_of_questions_with_responses[[name]] <- tmp
+}
 questions_administered <- c()
 theta <- 0
 response_vector <- c()
@@ -57,4 +64,10 @@ while (length(questions_administered)<16){
   theta_list <- c(theta_list,theta)
   se <- semTheta(theta,item_mat,response_vector)
   se_list <- c(se_list,se)
+}
+tmp_q_no <- 0
+for (i in questions_administered){
+  tmp_q_no <- tmp_q_no+1
+  name <- paste("question no:",i,sep=" ")
+  list_of_questions_with_responses[[name]] <- list(list_of_questions_with_responses[[name]],theta=theta,response=response_vector[tmp_q_no])
 }
